@@ -1,0 +1,11 @@
+--- /home/USERNAME/.config/variety/scripts/set_wallpaper	2020-03-07 17:33:18.286456421 +0000
++++ set_wallpaper_patched_moved	2020-03-07 17:43:01.202112727 +0000
+@@ -29,6 +29,8 @@
+ # The default is to simply set WP=$1.
+ WP=$1
+ 
++# Apply btw I use arch filter and overwrite original photo
++(cd /GIT_REPO/arch-pape-maker; ./mepapemaker.sh $WP; mv arch_btw_$(basename $WP) $WP)
+ 
+ # Enlightenment
+ # Needs Modules/System/DBus Extension loaded to work
