@@ -1,0 +1,3 @@
+[submodule "arch-pape-maker"]
+	path = arch-pape-maker
+	url = https://gitlab.com/SillyPill/arch-pape-maker
